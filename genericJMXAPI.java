@@ -231,7 +231,7 @@ public class genericJMXAPI {
                 metricPayload.add(source);
                 metricPayload.add(mbean.boundary_metric_name);
                 metricPayload.add(mbean.displayValue);
-                metricPayload.add(String.valueOf(System.currentTimeMillis()));
+                metricPayload.add(System.currentTimeMillis());
                 metricsArray.add(metricPayload);
             }
 
